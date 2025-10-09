@@ -1,4 +1,5 @@
 
+
 void main(){
   //? There is two type of data in dart
   //!   1. Primitive ( String , Intger , Boolean )
@@ -20,5 +21,7 @@ void main(){
   ''');
   print(23263);
   print(52.546);
+
+  print('hi');
 
 }
