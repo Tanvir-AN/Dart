@@ -11,7 +11,7 @@ void main(){
   
   
   //? Primitive Data types
-  //! String Value ( String ), Intger Value (int) , Floating Value ( double ) , Boolean Value ( bool )
+  //! Textual Value ( String ), Intger Value (int) , Floating Value ( double ) , Boolean Value ( bool )
   print('Single cote');
   print('When use can\'t');  //! Here It Called ( \ ) Escape Sequence or Backward Slash , it use for to continu the Execution
   print("Single cote");
