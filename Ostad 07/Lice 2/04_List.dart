@@ -116,7 +116,4 @@ void main (){
 
   names.clear(); //! remove all items
   print(names); // []
-
-
-  
 }
