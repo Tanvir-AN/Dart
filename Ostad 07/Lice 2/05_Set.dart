@@ -1,5 +1,12 @@
 void main(){
-  //! set is samae as list but set store unique items and set store items only once
+  //? set is samae as list but set store unique items and set store items only once
+
+  //! set store value inside {}
+
+  // set syntax
+  //!   Set   <data_type>  set_name  = {item1, item2, item3, ...};
+  //??   \/         \/        \/          \/     \/      \/
+  //!   Set      <String>    names   = {'ali', 'reza', 'sara'};
   Set<String> names = {'ali', 'reza', 'sara'};
   print(names);
 
@@ -11,6 +18,7 @@ void main(){
 
   names.addAll({'lula', 'Kana','zahra'}); //! add multiple items to the set using {}
   print(names);
+  
   names.addAll(['papi', 'gaja',]); //! add multiple items to the set using []
   print(names);
 

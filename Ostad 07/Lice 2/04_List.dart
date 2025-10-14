@@ -1,8 +1,11 @@
 void main (){
   // list is a collection of items and (ordered , mutable , dynamic , zero based index) collection of items
+  //! list store valur inside []
 
   // list syntax
-  // List<data_type> list_name = [item1, item2, item3, ...];
+  //!   List   <data_type>   list_name   =   [item1,   item2,    item3, ...];
+  //??   \/          \/          \/             \/       \/        \/
+  //!    List    <String>      names     =   ["Nayem", "Tanvir", "Rafiq"]; 
   // List<data_type> list_name = List<data_type>();
   // List<data_type> list_name = List<data_type>.filled(length, fill_value);
 
@@ -53,11 +56,13 @@ void main (){
   print(names.lastIndexWhere((name) => name.endsWith('K'))); // -1  //! print index of last item that starts with 'K' using condition
 
   print(names.where((name) => name.startsWith('K'))); // (Kamal)  //! print all items that starts with 'K' using condition
+
   print(names.where((names) => names.endsWith('q'))); // (Rafiq)  //! print all items that ends with 'q' using condition
 
   print(names.every((name) => name.length > 3)); // true  //! check if all items have length greater than 3 using condition
 
   print(names.any((name) => name.startsWith('N'))); // true  //! check if any item starts with 'N' using condition
+
   print(names.any((name) => name.endsWith('q'))); // true  //! check if any item ends with 'q' using condition
 
   print(names.map((name) => name.toUpperCase())); // (NAYEM, TANVIR, RAFIQ, KAMAL)  //! convert all items to uppercase using condition
@@ -116,4 +121,12 @@ void main (){
 
   names.clear(); //! remove all items
   print(names); // []
+
+  //? example of list of list (2D list)
+  List<List <String>> names2 = [
+    ["Nayem", "Tanvir", "Rafiq"],
+    ["Kamal", "Ahmed", "Sakib"],
+    ["Lula", "Kana", "Zahra"]
+  ];
+  print(names2);
 }
