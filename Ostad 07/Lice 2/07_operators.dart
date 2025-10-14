@@ -45,7 +45,7 @@ void main(){
   bool x = true;
   bool y = false;
   print(x && y); // false  //! logical AND
-  print(x || y); // true   //! logical OR
+  //print(x || y); // true   //! logical OR
   print(!x); // false      //! logical NOT
   print(!y); // true       //! logical NOT
   print((e < f) && (a > b)); // true  //! logical AND with relational operators

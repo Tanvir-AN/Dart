@@ -16,7 +16,7 @@ void main(){
     101: "Nayem", 
     102: "Tanvir", 
     103: "Rafiq",
-    101: "Ahmed"  // duplicate key will be ignored //? but if we add new value to the same key it will update the value
+    //101: "Ahmed"  // duplicate key will be ignored //? but if we add new value to the same key it will update the value
     };
   print(studentList);
 
