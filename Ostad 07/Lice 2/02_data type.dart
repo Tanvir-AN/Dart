@@ -1,5 +1,3 @@
-
-
 void main(){
   //? There is two type of data in dart
   //!   1. Primitive ( String , Intger , Boolean )
