@@ -80,6 +80,7 @@ void main(){
   //! final
   //? final variable value can't be changed (immutable) Like const
   //? but we can initialize the value later after declaration
+  //! Most of the time filal is in ( API ) call
 
   final String city; // we can declare final variable without initialization
   city = 'Dhaka'; // we can initialize the value later after declaration
