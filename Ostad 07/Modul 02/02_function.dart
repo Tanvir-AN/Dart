@@ -17,7 +17,8 @@ void main(){
 
   //! syntax of function
   //!   returnType functionName (parameters) {   
-  //!                                        Body of function here code executed
+  //!                                        (Body of function here code executed)
+  //!                                       return;
   //!                                      }
 
   //! returnType 
@@ -34,14 +35,17 @@ void main(){
   //!     dataType -> type of parameter -> int , double , String , bool , List , Map , Set , dynamic , var , etc
   //!     parameterName -> name of the parameter -> we can use camel case style for parameter name
   //? parameters have type -> require parameter , optional parameter , named parameter , optional named parameter
-  //! require parameter -> (dataType parameterName) -> when function call then we have to pass value for this parameter
-  //! ptional parameter -> [dataType parameterName = difault value] -> when function call then we can pass or not pass value
+  //! (positional / require) parameter -> (dataType parameterName) -> when function call then we have to pass value for this parameter
+  //! optional parameter -> [dataType parameterName = difault value] -> when function call then we can pass or not pass value
   //! named parameter -> {required dataType parameterName} -> when function call then we have to pass value with parameter name
   //! optional named parameter -> {dataType parameterName = default value} -> when function call then we can pass or not pass value with parameter name
   //? we can use both optional and named parameter in the same function 
   //? for example -> functionName (  int a  ,  [int b = 0] , {required int c} , {int d = 0}  ){ function body }
   //! body of the function
   //? code to be executed -> body of the function -> code that will be executed when the function is called
+  //! return
+  //? return must be used when we declare return type in a function
+  //? after complite execution given task to the function than function return the valu where it called 
   
   
   welcomeMessage('Nayeem', 5);
