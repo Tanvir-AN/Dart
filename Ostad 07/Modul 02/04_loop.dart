@@ -153,7 +153,5 @@ void main(){
     print('1st $ditails');
   }
 
-  // 
-
 
 }
