@@ -38,7 +38,7 @@ void main(){
 
   //! ! -> nall operator
   name = "Nayem";
-  print(name!); 
+  print(name); 
   // this process called force unrap or hard unrap
   // if name is uninitialize or null then it will show error
   //! only use force unrap when you sure that value is not null
