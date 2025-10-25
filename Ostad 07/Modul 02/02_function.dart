@@ -48,16 +48,16 @@ void main(){
   //? after complite execution given task to the function than function return the valu where it called 
   
   
-  welcomeMessage('Nayeem', 5);
-  officePresent();
-  officePresent(true);
-  addNumbers(a: 10, b: 20);
-  forExample(n: 20, m: 10);
-  forExample();
+  welcomeMessage('Nayeem', 5); // function call with arguments for positional/require parameter
+  officePresent(); // function call without arguments for optional parameter
+  officePresent(true); // function call with arguments for optional parameter
+  addNumbers(a: 10, b: 20); // function call with arguments for named parameter
+  forExample(n: 20, m: 10); // function call with arguments for named parameter
+  forExample(); // function call without arguments for named parameter
   
-  int sumValue = forReturnValue(20, 30);
-  print(sumValue);
-  print(forReturnValue(30, 20));
+  int sumValue = forReturnValue(20, 30); // function call with arguments and the function return the value
+  print(sumValue); 
+  print(forReturnValue(30, 20)); // function call with arguments and the function return the value
 }
 welcomeMessage(String name , int desktopNumber){
     print("Welcome $name to Dart Programming Language");
