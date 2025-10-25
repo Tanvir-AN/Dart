@@ -5,7 +5,7 @@ void main(){
 // only if we want to use null then we use Nullable datatype or Nall operator
 //! Nall Operator -> ? , ! , ??
 // if we want a variable to hold valid value and null then datatype mast be nallable
-// nullable datatype -> int? , double? , bool? , String?
+// nullable datatype -> int? , double? , bool? , String? -> nallable int, etc
 //! nullable_datatype? variable_name;
 
 // we can't use variable without initialize value
@@ -32,12 +32,13 @@ void main(){
   // }else{
   //   print(name);
   // }
-
+  //? woek like if else
   print(name ?? 'Name is null'); // this process called soft unrap
   // if name is uninitialize or null then it will show "Name is null"
 
   //! ! -> nall operator
-  //? print(name!); 
+  name = "Nayem";
+  print(name!); 
   // this process called force unrap or hard unrap
   // if name is uninitialize or null then it will show error
   //! only use force unrap when you sure that value is not null
@@ -47,14 +48,14 @@ void main(){
   //! late null safety hendler
   //? late -> keyword -> late_keyword datatype variable_name;
   //? late is used -> if we want to use variable without initialize value but we initialize value later then we use late_keyword
-  late String name1;
-  name1 = "Nayem";
+  late String? name1;
+  name1 = "Tanvir";
   print(name1);
 
   //! final null safety hendler
   //? final -> keyword -> final_keyword datatype variable_name = value;
   //? final is used -> if we want to use variable fixed initialize value but we not want to change value later then we use final_keyword
-  final String name2 = "Nayem";
+  final String name2 = "Ahmed";
   print(name2);
   //? name2 = "Tanvir";
   // this will show error
