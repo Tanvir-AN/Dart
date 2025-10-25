@@ -66,21 +66,7 @@ void main(){
   //? if we want index we use for loop 
   //? if we want work with value we use for in loop and also forEach
 
-  //! for in loop
-  //? for(int i in studants) -> for (loop in list ( where we do loop))
-  //? every value of a list put in variable 
-  //? for variable value in inside a list or map each value
-  //! syntex of for in
-  //? for ( data-type variable in list or map ){
-  //?                               body -> print(variable);
-  //?                               }
 
-  //! forEach loop
-  //? list or map forEach each value variavle
-  //! syntex of for in
-  //? list or map.forEach(( variable-name){
-  //?                               body -> print(variable);
-  //?                               });
 
   List<String> students = [
     'Nayeem',
@@ -94,10 +80,26 @@ void main(){
     print('Student $i : ${students[i]}');
   }
 
+  //! for in loop
+  //? for(int i in studants) -> for (loop in list ( where we do loop))
+  //? every value of a list put in variable 
+  //? for variable value in inside a list or map each value
+  //! syntex of for in
+  //? for ( data-type variable in list or map ){
+  //?                               body -> print(variable);
+  //?                               }
+
   for (String student in students){
     print("Student name $student");
   }
 
+  //! forEach loop
+  //? list or map forEach each value variavle
+  //! syntex of for in
+  //? list or map.forEach(( variable-name){
+  //?                               body -> print(variable);
+  //?                               });
+  
   students.forEach((student){
     print(student);
   });
