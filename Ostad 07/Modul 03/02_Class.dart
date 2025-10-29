@@ -14,7 +14,7 @@
 //!             body
 //!         }
 //! }
-//? class_nane -> class name start with upper case letter like:- ClassName
+//? ClassName -> class name -> class name start with upper case letter like:- ClassName
 //? { }        -> inside { } is called body -> inside body block of code is written
 //? properties/attributes -> dataType propertyName = value; -> inside body we can write properties/attributes
 //? methods -> void functionName(){ body } -> inside body we can write methods
@@ -33,12 +33,6 @@
 // private property & method -> _name -> can be access only in same dart file -> it can't be access in other dart file or other class
 //! _private -> _encapsulation -> like same
 //! encapsulation -> like Wrapping with box -> it can only use where it wrap otherwise it can't use
-
-//? create object/instance
-//! className objectName = className();
-// className() -> constructor -> create object/instance
-//? method call
-//! objectName.methodName();
 
 
 class Monitor{
@@ -59,11 +53,19 @@ class Monitor{
         print(this.name);             //! this keyword is use -> this will print class properties value
         // print(price);
         // this.name = name;
-        // this.price = price;
-        
+        // this.price = price;        
     }
-
 }
+
+
+//! in main function
+//? create object/instance or object call
+//! className objectName = className();
+//? object call with arguments
+//! className objectName = className('value', 'value');
+//? method call
+//! objectName.methodName();
+
 
 void main(){
     Monitor myMonitor = Monitor('Dell', '10000');
