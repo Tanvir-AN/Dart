@@ -4,21 +4,21 @@
 
 // good software have 4 behavior
 // Software must be work -> it's slow but work -> not crash, not error, etc
-// it can extandable -> new feature can be added -> without change the old code and without crashing the code/software
-// it can be reusable -> it can be used multiple times -> without change the old code and without crashing the code/software
-// folt tolerant -> it can tolerate any kind of problem -> without crashing the code/software software run -> like without network connection FB show cash and notify user connect network but software work
+// it can extandable     -> new feature can be added -> without change the old code and without crashing the code/software
+// it can be reusable    -> it can be used multiple times -> without change the old code and without crashing the code/software
+// folt tolerant         -> it can tolerate any kind of problem -> without crashing the code/software software run -> like without network connection FB show cash and notify user connect network but software work
 
 // OOP have 4 main goals or concepts
-// 1. Correctness -> software must be work correctly and not crash, not error, etc
-// 2. Robustness -> reactive agent action must be perform correctly -> without performing wrong action
+// 1. Correctness   -> software must be work correctly and not crash, not error, etc
+// 2. Robustness    -> reactive agent action must be perform correctly -> without performing wrong action
 // 3. Extendibility -> system must be extandable -> can be add new feature and functionality without any problem -> adding new feature must be faster
-// 4. Reusability -> code must be reusable -> can be used multiple times without change the old code and without crashing the code
+// 4. Reusability   -> code must be reusable -> can be used multiple times without change the old code and without crashing the code
 
-// There are 4 main pillars in OOP
-// 1. Abstraction -> hide the implementation details and complexity code from the user 
-// 2. Polymorphism -> allow different objects to be treated as the same type -> woek same way but have different face
-// 3. Inheritance -> allow a class to inherit properties and methods from another class -> child class inherit properties wealth
-// 4. Encapsulation -> the process of hiding the implementation details and complexity code from the user
+//? There are 4 main pillars in OOP
+//? 1. Abstraction   -> hide the implementation details and complexity code from the user 
+//? 2. Polymorphism  -> allow different objects to be treated as the same type -> woek same way but have different face
+//? 3. Inheritance   -> allow a class to inherit properties and methods from another class -> child class inherit properties wealth
+//? 4. Encapsulation -> the process of hiding the implementation details and complexity code from the user
 
 // any programming have 4 main pillars of oop it's called object oriented programming language
 
