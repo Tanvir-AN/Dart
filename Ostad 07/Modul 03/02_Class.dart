@@ -19,7 +19,7 @@
 //? properties/attributes -> dataType propertyName = value; -> inside body we can write properties/attributes
 //? methods -> void functionName(){ body } -> inside body we can write methods
 //? Constructor -> ClassName(){ body } -> inside a class only one constructor is allowed
-//! take responsibility of creating object
+//! constructor is take responsibility of creating object
 //! constructor is called when object is created -> also execute some thing if we want
 //! we can pass parameters to the constructor -> ClassName(String name, String price){ body }
 //! if we pass parameters to the constructor then we have to give arguments to the constructor -> ClassName('Asus', '10000');
